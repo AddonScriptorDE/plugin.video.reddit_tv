@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30001">Subreddit hinzufügen</string>
+  <string id="30013">Subreddit entfernen</string>
+  <string id="30101">Bewertungsfilter</string>
+  <string id="30102">View erzwingen</string>
+  <string id="30104">Minimale Bewertung in %</string>
+  <string id="30105">Minimale Anzahl der Stimmen für den Filter</string>
+</strings>

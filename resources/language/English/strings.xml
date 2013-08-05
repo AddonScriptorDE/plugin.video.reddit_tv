@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30001">Add subreddit</string>
+  <string id="30002">Hot</string>
+  <string id="30003">Latest</string>
+  <string id="30004">Top</string>
+  <string id="30005">Controversial</string>
+  <string id="30006">Hour</string>
+  <string id="30007">Day</string>
+  <string id="30008">Week</string>
+  <string id="30009">Month</string>
+  <string id="30010">Year</string>
+  <string id="30011">All Time</string>
+  <string id="30012">Play randomly</string>
+  <string id="30013">Remove subreddit</string>
+  <string id="30101">Rating filter</string>
+  <string id="30102">Force View</string>
+  <string id="30103">ViewID</string>
+  <string id="30104">Minimum rating in %</string>
+  <string id="30105">Minimum number of votes for filter</string>
+</strings>
