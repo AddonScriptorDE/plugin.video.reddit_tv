@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
   <string id="30001">Subreddit hinzufügen</string>
+  <string id="30012">Alle zufällig abspielen</string>
   <string id="30013">Subreddit entfernen</string>
+  <string id="30014">Ungesehene zufällig abspielen</string>
+  <string id="30015">Unbeendete zufällig abspielen</string>
+  <string id="30016">Nächste Seite</string>
   <string id="30101">Bewertungsfilter</string>
   <string id="30102">View erzwingen</string>
   <string id="30104">Minimale Bewertung in %</string>
   <string id="30105">Minimale Anzahl der Stimmen für den Filter</string>
+  <string id="30106">"Alle zufällig abspielen" anzeigen</string>
+  <string id="30107">"Ungesehene zufällig abspielen" anzeigen</string>
+  <string id="30108">"Unbeendete zufällig abspielen" anzeigen</string>
+  <string id="30109">Allgemein</string>
+  <string id="30110">Kategorien</string>
 </strings>

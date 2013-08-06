@@ -1,2 +1,6 @@
 1.0.0
 - Initial release
+1.0.1
+- Added support for browsing all videos by hoster
+- Added selectable categories via add-on settings
+- Added autoplay mode for unwatched/unfinished videos

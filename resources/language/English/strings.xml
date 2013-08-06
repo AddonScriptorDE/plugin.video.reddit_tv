@@ -2,7 +2,7 @@
 <strings>
   <string id="30001">Add subreddit</string>
   <string id="30002">Hot</string>
-  <string id="30003">Latest</string>
+  <string id="30003">New</string>
   <string id="30004">Top</string>
   <string id="30005">Controversial</string>
   <string id="30006">Hour</string>
@@ -11,11 +11,31 @@
   <string id="30009">Month</string>
   <string id="30010">Year</string>
   <string id="30011">All Time</string>
-  <string id="30012">Play randomly</string>
+  <string id="30012">Randomly play all</string>
   <string id="30013">Remove subreddit</string>
+  <string id="30014">Randomly play unwatched</string>
+  <string id="30015">Randomly play unfinished</string>
+  <string id="30016">Next Page</string>
   <string id="30101">Rating filter</string>
   <string id="30102">Force View</string>
   <string id="30103">ViewID</string>
   <string id="30104">Minimum rating in %</string>
   <string id="30105">Minimum number of votes for filter</string>
+  <string id="30106">Show "Randomly play all"</string>
+  <string id="30107">Show "Randomly play unwatched"</string>
+  <string id="30108">Show "Randomly play unfinished"</string>
+  <string id="30109">General</string>
+  <string id="30110">Categories</string>
+  <string id="30150">Top: Day</string>
+  <string id="30151">Top: Week</string>
+  <string id="30152">Top: Month</string>
+  <string id="30153">Top: Year</string>
+  <string id="30154">Top: AllTime</string>
+  <string id="30155">Controversial: Hour</string>
+  <string id="30156">Controversial: Day</string>
+  <string id="30157">Controversial: Week</string>
+  <string id="30158">Controversial: Month</string>
+  <string id="30159">Controversial: Year</string>
+  <string id="30160">Controversial: AllTime</string>
+
 </strings>

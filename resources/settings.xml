@@ -1,7 +1,29 @@
 <settings>
-   <setting id="filter" type="bool" label="30101" default="false"/>
-   <setting id="filterRating" type="number" label="30104" enable="!eq(-1,false)" default="70"/>
-   <setting id="filterVoteThreshold" type="number" label="30105" enable="!eq(-2,false)" default="10"/> 
-   <setting id="forceViewMode" type="bool" label="30102" default="true"/>
-   <setting id="viewMode" type="number" label="30103" default="504"/>
+    <category label="30109">
+        <setting id="filter" type="bool" label="30101" default="false"/>
+        <setting id="filterRating" type="number" label="30104" enable="!eq(-1,false)" default="50"/>
+        <setting id="filterVoteThreshold" type="number" label="30105" enable="!eq(-2,false)" default="10"/>
+        <setting type="sep" />
+        <setting id="showAll" type="bool" label="30106" default="false"/>
+        <setting id="showUnwatched" type="bool" label="30107" default="true"/>
+        <setting id="showUnfinished" type="bool" label="30108" default="false"/>
+        <setting type="sep" />
+        <setting id="forceViewMode" type="bool" label="30102" default="true"/>
+        <setting id="viewMode" type="number" label="30103" default="504"/>
+    </category>
+    <category label="30110">
+        <setting id="cat_hot" type="bool" label="30002" default="true"/>
+        <setting id="cat_new" type="bool" label="30003" default="true"/>
+        <setting id="cat_top_d" type="bool" label="30150" default="true"/>
+        <setting id="cat_top_w" type="bool" label="30151" default="true"/>
+        <setting id="cat_hot_m" type="bool" label="30152" default="false"/>
+        <setting id="cat_hot_y" type="bool" label="30153" default="false"/>
+        <setting id="cat_hot_a" type="bool" label="30154" default="false"/>
+        <setting id="cat_con_h" type="bool" label="30155" default="true"/>
+        <setting id="cat_con_d" type="bool" label="30156" default="true"/>
+        <setting id="cat_con_w" type="bool" label="30157" default="true"/>
+        <setting id="cat_con_m" type="bool" label="30158" default="false"/>
+        <setting id="cat_con_y" type="bool" label="30159" default="false"/>
+        <setting id="cat_con_a" type="bool" label="30160" default="false"/>
+    </category>
 </settings>
