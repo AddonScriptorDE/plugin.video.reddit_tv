@@ -13,8 +13,6 @@ import datetime
 import xbmcplugin
 import xbmcgui
 import xbmcaddon
-from xml.etree.ElementTree import Element, SubElement, tostring
-from xml.dom import minidom
 
 
 addon = xbmcaddon.Addon()
