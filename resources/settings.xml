@@ -3,13 +3,13 @@
         <setting id="itemsPerPage" type="enum" label="30100" values="25|50|75|100" default="1"/>
         <setting type="sep" />
         <setting id="searchSort" type="enum" label="30111" lvalues="30113|30114|30115|30116|30117|30118" default="1"/>
-        <setting id="searchTime" type="enum" label="30112" lvalues="30113|30119|30120|30121|30122|30123|30124" default="4"/>
+        <setting id="searchTime" type="enum" label="30112" lvalues="30113|30119|30120|30121|30122|30123|30124" default="6"/>
         <setting type="sep" />
         <setting id="filter" type="bool" label="30101" default="false"/>
         <setting id="filterRating" type="number" label="30104" enable="!eq(-1,false)" default="50"/>
         <setting id="filterThreshold" type="number" label="30105" enable="!eq(-2,false)" default="10"/>
         <setting type="sep" />
-        <setting id="showNSFW" type="bool" label="30178" default="false"/>
+        <setting label="30178" type="action" action="RunPlugin(plugin://plugin.video.reddit_tv/?mode=toggleNSFW)"/>
         <setting type="sep" />
         <setting id="forceViewMode" type="bool" label="30102" default="true"/>
         <setting id="viewMode" type="number" label="30103" default="504"/>
@@ -32,7 +32,7 @@
         <setting id="cat_top_d" type="bool" label="30150" default="false"/>
         <setting id="cat_top_w" type="bool" label="30151" default="true"/>
         <setting id="cat_top_m" type="bool" label="30152" default="true"/>
-        <setting id="cat_top_y" type="bool" label="30153" default="false"/>
+        <setting id="cat_top_y" type="bool" label="30153" default="true"/>
         <setting id="cat_top_a" type="bool" label="30154" default="false"/>
         <setting id="cat_com_h" type="bool" label="30159" default="false"/>
         <setting id="cat_com_d" type="bool" label="30160" default="true"/>
@@ -41,12 +41,19 @@
         <setting id="cat_com_y" type="bool" label="30163" default="false"/>
         <setting id="cat_com_a" type="bool" label="30164" default="false"/>
     </category>
+    <category label="30179">
+        <setting label="30180" type="action" action="RunPlugin(plugin://plugin.video.reddit_tv/?mode=openSettings&url=youtube)"/>
+        <setting label="30181" type="action" action="RunPlugin(plugin://plugin.video.reddit_tv/?mode=openSettings&url=vimeo)"/>
+        <setting label="30182" type="action" action="RunPlugin(plugin://plugin.video.reddit_tv/?mode=openSettings&url=dailymotion)"/>
+        <setting id="ll_qualiy" type="enum" label="30183" values="480p|720p" default="1"/>
+        <setting id="ll_downDir" type="folder" label="30184" default=""/>
+    </category>
     <category label="30118">
         <setting id="showBrowser" type="bool" label="30177" default="true"/>
-        <setting id="browser_win" type="enum" label="30172" values="XBMC WebBrowser|Chrome Starter" default="1"/>
+        <setting id="browser_win" type="enum" label="30172" values="XBMC WebBrowser|Chrome Launcher" default="1"/>
         <setting id="browser_wb_zoom" type="number" label="30175" enable="eq(-1,0)" default="150"/>
         <setting label="30176" enable="eq(-2,0)" type="action" action="RunPlugin(plugin://plugin.program.webbrowser/?mode=mapKeys)"/>
-        <setting id="browser_osx" type="enum" label="30173" values="Chrome Starter" default="0"/>
-        <setting id="browser_lin" type="enum" label="30174" values="Chrome Starter" default="0"/>
+        <setting id="browser_osx" type="enum" label="30173" values="Chrome Launcher" default="0"/>
+        <setting id="browser_lin" type="enum" label="30174" values="Chrome Launcher" default="0"/>
     </category>
 </settings>
